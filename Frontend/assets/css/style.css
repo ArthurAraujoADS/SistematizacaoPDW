@@ -21,9 +21,13 @@
 }
 body
 {
-    background-image: url(../images/bolha-background.png);
+    background-color:#ecebdc;
     background-repeat: no-repeat;
     background-position: left center;
+}
+div{
+    margin: solid 1px #2f4751;
+    padding: 30px;
 }
 .container
 {

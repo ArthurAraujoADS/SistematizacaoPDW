@@ -1,0 +1,55 @@
+.intro
+{
+    justify-content: space-between;
+    align-items: center;
+}
+.intro article
+{
+    width: 300px;
+}
+.intro article h1
+{
+    font-size: 70px;
+    line-height: 90%;
+    font-weight: 400;
+    color: #2f4751
+}
+.intro article h2,
+.intro article p 
+{
+    color: #81a497;
+}
+.intro article h2
+{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 200%;
+}
+.intro article p
+{
+    margin: 10px 0 30px;
+}
+.intro figcaption
+{
+    display: flex;
+    flex-direction: column;
+}
+.intro figcaption a 
+{
+    font-size: 5px;
+}
+
+.service h1{
+    font-size: 70px;
+    line-height: 90%;
+    font-weight: 400;
+    color: #2f4751
+}
+
+.medical h1{
+    font-size: 70px;
+    line-height: 90%;
+    font-weight: 400;
+    color: #2f4751
+}

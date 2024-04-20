@@ -3,160 +3,231 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <title>Home</title>
 </head>
 <body>
-    <header class="container">
-        <section class="row">
-            <img src="assets/imagens/Arnjo-medical-clinic.jpeg" alt="Logo Arnjo medical">
-            <!--Menu-->
-            <nav>
-                <ul class="row">
-                  <li>
-                    <a href="#">Home</a>
-                  </li>
-                  <li>
-                    <a href="#">Serviços</a>
-                  </li>        
-                  <li>
-                    <a href="#">Medicos</a>
-                  </li>
-                  <li>
-                    <a href="#">Agendamento</a>
-                  </li>
-                  <li>
-                    <a href="#">Contato</a>
-                  </li>
-                </ul>
-              </nav>
+    <header class="text-center">
+        <section>
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                            <a class="navbar-brand" href="#">
+                                <img src="assets/imagens/Arnjo-medical-clinic.jpeg" alt="Arnjo" width="30" height="24">
+                            </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Serviços</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Medicos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Agendamento</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contato</a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div><br><br>           
         </section>
     </header>
-    <main class="container">
+    <main class="container text-center">
         <!--Intro-->
-        <section class="row intro">
-            <article>
-                <h1>Arnjo</h1>
-                <h2>Medical Clinic</h2>
-                <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type
-                </p>
-                <a href="#" class="btb">Saiba mais...</a>
-            </article>
-            <figcaption>
-                <img src="assets/imagens/Doctors2.gif" alt="">
-                <a href="https://storyset.com/work">Work illustrations by Storyset</a>
-            </figcaption>
+        <section id="intro">
+            <div class="container">
+                <div class="row" >
+                    <div class="col grid">
+                        <article>
+                            <h1>Arnjo</h1>
+                            <h4>Medical Clinic</h4>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                when an unknown printer took a galley of type and scrambled it to make a type
+                            </p>
+                            <a href="#" class="btn btn-primary">Saiba mais...</a>
+                        </article>
+                    </div>
+                    <div class="col-8 grid">
+                        <figure class="figure">
+                            <img src="assets/imagens/Doctors2.gif" class="figure-img img-fluid rounded" alt="">
+                            <figcaption class="figure-caption text-end">
+                                <a href="https://storyset.com/work">Work illustrations by Storyset</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div><br><br>
         </section>
         <!--Serviços-->
-        <section class="row service">
-            <h1>Serviços</h1><br>               
-                <div>
-                    <h3>Atendimento Médico</h3>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type
-                    </p>
-                    <a href="#" class="btb">Saiba mais...</a>
+        <section id="service">
+            <br><br><h1>Serviços</h1><br><br>    
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm card" style="width: 18rem;">
+                        <img src="https://fakeimg.pl/200/" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Atendimento Médico</h5>
+                            <p class="card-text">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                when an unknown printer took a galley of type and scrambled it to make a type
+                            </p>
+                            <a href="#" class="btn btn-primary">Saiba mais...</a>
+                        </div>
+                    </div>
+                    <div class="col-sm card" style="width: 18rem;">
+                        <img src="https://fakeimg.pl/200/" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Especialistas</h5>
+                            <p class="card-text">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                when an unknown printer took a galley of type and scrambled it to make a type
+                            </p>
+                            <a href="#" class="btn btn-primary">Saiba mais...</a>
+                        </div>
+                    </div>
+                    <div class="col-sm card" style="width: 18rem;">
+                        <img src="https://fakeimg.pl/200/" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Exames Labotoriais e de Imagem</h5>
+                            <p class="card-text">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                when an unknown printer took a galley of type and scrambled it to make a type
+                            </p>
+                            <a href="#" class="btn btn-primary">Saiba mais...</a>
+                        </div>
+                    </div>
+                    <div class="col-sm card" style="width: 18rem;">
+                        <img src="https://fakeimg.pl/200/" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Acompanhamento Nutricional</h5>
+                            <p class="card-text">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                when an unknown printer took a galley of type and scrambled it to make a type
+                            </p>
+                            <a href="#" class="btn btn-primary">Saiba mais...</a>
+                        </div>
+                    </div>           
                 </div>
-                <div>
-                    <h3>Especialistas</h3>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type
-                    </p>
-                    <a href="#" class="btb">Saiba mais...</a>
-                </div>
-                <div>
-                    <h3>Exames Labotoriais e de Imagem</h3>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type
-                    </p>
-                    <a href="#" class="btb">Saiba mais...</a>
-                </div>
-                <div>
-                    <h3>Acompanhamento Nutricional</h3>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type
-                    </p>
-                    <a href="#" class="btb">Saiba mais...</a>
-                </div>
+            </div><br><br>
         </section>
         <!--Medicos-->
-        <section class="row medical">
-            <h1>Medicos</h1>
-            <div>
-                <h3>Marcio</h3>
-                <p>
-                    Clinico Geral
-                </p>
-                <a href="#" class="btb">Saiba mais...</a>
-            </div>
-            <div>
-                <h3>Ana Maria</h3>
-                <p>
-                    Nutrologo
-                </p>
-                <a href="#" class="btb">Saiba mais...</a>
-            </div>
-            <div>
-                <h3>Tiago</h3>
-                <p>
-                    Cardiologista
-                </p>
-                <a href="#" class="btb">Saiba mais...</a>
-            </div>
-            <div>
-                <h3>João</h3>
-                <p>
-                    Personal Trainer
-                </p>
-                <a href="#" class="btb">Saiba mais...</a>
-            </div>
-            <div>
-                <h3>Suelen</h3>
-                <p>
-                    Ortopedista
-                </p>
-                <a href="#" class="btb">Saiba mais...</a>
-            </div>
-            <div>
-                <h3>Natalia</h3>
-                <p>
-                    Nutricionista
-                </p>
-                <a href="#" class="btb">Saiba mais...</a>
-            </div>
+        <section id="medical">
+            <br><br><h1>Medicos</h1><br><br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm card" style="width: 18rem;">
+                        <img src="https://fakeimg.pl/200/" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Marcio</h5>
+                            <p class="card-text">Clinico Geral</p>
+                            <a href="#" class="btn btn-primary">Saiba mais...</a>
+                        </div>
+                    </div>
+                    <div class="col-sm card" style="width: 18rem;">
+                        <img src="https://fakeimg.pl/200/" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ana Maria</h5>
+                            <p class="card-text">Nutrologa</p>
+                            <a href="#" class="btn btn-primary">Saiba mais...</a>
+                        </div>
+                    </div>
+                    <div class="col-sm card" style="width: 18rem;">
+                        <img src="https://fakeimg.pl/200/" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Tiago</h5>
+                            <p class="card-text">Cardiologista</p>
+                            <a href="#" class="btn btn-primary">Saiba mais...</a>
+                        </div>
+                    </div>
+                    <div class="col-sm card" style="width: 18rem;">
+                        <img src="https://fakeimg.pl/200/" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">João</h5>
+                            <p class="card-text">Personal Trainer</p>
+                            <a href="#" class="btn btn-primary">Saiba mais...</a>
+                        </div>
+                    </div>
+                    <div class="col-sm card" style="width: 18rem;">
+                        <img src="https://fakeimg.pl/200/" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Suelen</h5>
+                            <p class="card-text">Ortopedista</p>
+                            <a href="#" class="btn btn-primary">Saiba mais...</a>
+                        </div>
+                    </div>
+                    <div class="col-sm card" style="width: 18rem;">
+                        <img src="https://fakeimg.pl/200/" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Natalia</h5>
+                            <p class="card-text">Nutricionista</p>
+                            <a href="#" class="btn btn-primary">Saiba mais...</a>
+                        </div>
+                    </div>
+                </div>
+            </div><br><br>
 
         </section>
         <!--Agendamento-->
-        <section>
-            <section class="agenda">
-                <h1>Agendamento</h1>
-                <figcaption>
-                    <img src="assets/imagens/Agendamento.gif" alt="">
+        <section id="agenda">
+            <br><br><h1>Agendamento</h1><br><br>
+            <figure class="figure">
+                <img src="assets/imagens/Agendamento.gif" class="figure-img img-fluid rounded" alt="">
+                <figcaption class="figure-caption text-end">
                     <a href="https://storyset.com/work">Work illustrations by Storyset</a>
                 </figcaption>
-                <form>   
-                    <h3>Cadastro</h3>
-                    <input type="text" id="Nome" placeholder="Nome"/><br>
-                    <input type="email" id="Email" placeholder="Email"/><br>
-                    <input type="tel" id="Telefone" placeholder="Telefone"/><br>
-                    <input type="date" id="Data"/><br>
-                    <input type="submit" value="Marque agora!" class="btn"></input>
-                </form> 
-            </section>
+            </figure>
+            <form>
+                <h3>Cadastro</h3>
+                <div class="row mb-3">
+                    <label for="colFormLabel" class="col-sm-2 col-form-label">Nome</label>
+                    <div class="col-sm-10">
+                    <input type="text" class="form-control" id="Nome" placeholder="Nome">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10">
+                    <input type="email" class="form-control" id="Email" placeholder="Email">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="colFormLabel" class="col-sm-2 col-form-label">Telefone</label>
+                    <div class="col-sm-10">
+                    <input type="tel" class="form-control" id="Telefone" placeholder="Telefone">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="colFormLabel" class="col-sm-2 col-form-label">Data</label>
+                    <div class="col-sm-10">
+                    <input type="date" class="form-control" id="Data">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+            </form><br><br>
         </section>
     </main>
-    <footer class="container">
+    <footer class="container text-center">
         <section>
             <!--Contato-->
             <div>
@@ -172,5 +243,8 @@
                 <img src="assets/imagens/linkedin.svg" alt="linkedin">
             </div>
     </footer>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
 </body>
 </html>

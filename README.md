@@ -10,4 +10,5 @@
 5. va até a sua pasta onde extrai o pacote com o comando cd (exemplo: cd /Domuments/SistematizacaoPDW)
 6. Inicie o servidor: http-server -p 5500
 7. Acesse a API em: http://localhost:5500
-8. Outra alternativa se estiver utilizando vscode é baixar as extensões live server e live preview, e utiliza-las para observar a pagina
+8. Clique CRTL+c para parar o servidor
+9. Outra alternativa se estiver utilizando vscode é baixar as extensões live server e live preview, e utiliza-las para observar a pagina
